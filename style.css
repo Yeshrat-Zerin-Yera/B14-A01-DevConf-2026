@@ -1,3 +1,59 @@
+/* Universal selector */
 *{
     font-family: "Arimo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Common button */
+.common-btn{
+    background-color: #2727ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.common-btn:hover{
+    box-shadow: 2px 1px 10px black;
+}
+/* Navigation */
+nav{
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: #36485a;
+}
+/* Banner */
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("./assets/banner.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner div{
+    text-align: center;
+}
+.banner div h1{
+    margin-bottom: 20px;
+}
+.banner div p{
+    margin-bottom: 35px;
+    line-height: 1.8;
+    max-width: 800px;
 }
