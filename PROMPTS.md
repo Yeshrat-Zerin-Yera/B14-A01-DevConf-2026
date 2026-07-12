@@ -1,0 +1,2 @@
+Prompt(s) used for the Placeholder Section:
+Suppose you are a web developer building a website called DevConf 2026 (conference of web developers). The website has a navbar, a banner, a grid of speakers, select your spot cards with name and price, and footer. Now create a section using only HTML and CSS. The section is about a mystery guest who will be revealed before the conference. You can add heading, paragraph, button, and image.
