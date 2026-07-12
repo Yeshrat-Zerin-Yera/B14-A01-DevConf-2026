@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* Common button */
 .common-btn{
     background-color: #2727ff;
@@ -14,9 +15,13 @@
     font-weight: 600;
     font-size: 16px;
 }
-.common-btn:hover{
-    box-shadow: 2px 1px 10px black;
+
+button:hover{
+    background-color: #92b1d0;
 }
+
+/*---------------------------------------------------*/
+
 /* Navigation */
 nav{
     width: 80%;
@@ -25,15 +30,21 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 .middle-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     list-style: none;
     color: #36485a;
 }
+
+/*---------------------------------------------------*/
+
 /* Banner */
 .banner{
     background-repeat: no-repeat;
@@ -45,15 +56,223 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
+
 .banner div{
     text-align: center;
 }
+
 .banner div h1{
     margin-bottom: 20px;
 }
+
 .banner div p{
     margin-bottom: 35px;
     line-height: 1.8;
     max-width: 800px;
+}
+
+/*---------------------------------------------------*/
+
+/* Speaker section */
+.speakers-section{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.speakers-section h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.speakers-card{
+    line-height: 1.8;
+    border-radius: 10px;
+}
+
+.speakers-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.expertise{
+    color: #2727ff;
+}
+
+.job{
+    color: #36485a;
+}
+
+/*---------------------------------------------------*/
+
+/* Select spot */
+.secure-spot{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.secure-spot > h2{
+    text-align: center;
+}
+
+.secure-spot > p{
+    text-align: center;
+    color: #36485a;
+}
+
+.secure-spot-card p{
+    color: #36485a;
+}
+
+.secure-spot-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secure-spot-card{
+    border: 1px solid #36485a;
+    border-radius: 10px;
+    padding:20px 40px;
+}
+
+.secure-spot-card ul{
+    margin-top: 20px;
+}
+
+.secure-spot-card ul li::marker{
+    color:#2727ff;
+}
+
+.secure-spot-card button{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.standard button{
+    color: #2727ff;
+    border: 2px solid #2727ff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pro{
+    color: white;
+    background-color: #121c26;
+}
+.pro p{
+    color: white;
+}
+
+.team{
+    background-color: rgb(230, 234, 238);
+}
+
+.team button{
+    color: #36485a;
+    border: 2px solid #36485a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------------------------------------------------*/
+
+/* Mystery speaker section */
+.mystery-speaker {
+    background: linear-gradient(rgba(7, 15, 43, 0.9), rgba(7, 15, 43, 0.9));
+    padding: 100px 10%;
+    text-align: center;
+    color: white;
+}
+
+.mystery-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.mystery-content p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #d9d9d9;
+    line-height: 1.8;
+}
+
+.mystery-content span {
+    color: #00e5ff;
+    font-weight: bold;
+}
+
+.mystery-card {
+    width: 280px;
+    margin: 0 auto 40px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 229, 255, 0.4);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.mystery-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 229, 255, 0.3);
+}
+
+.mystery-card img {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.mystery-card h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.reveal-btn {
+    background: #00e5ff;
+    color: #07152b;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------*/
+
+/* Footer */
+footer{
+    background-color: #121c26;
+}
+
+footer > div{
+    width: 80vw;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
